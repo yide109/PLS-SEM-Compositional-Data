@@ -2,7 +2,7 @@
 
 ## Final manuscript version — 31 October 2026
 
-**Use the [final analysis release](final/README.md), version 1.0.0.** Download and extract [PUBLIC_RELEASE_FINAL.zip](final/PUBLIC_RELEASE_FINAL.zip). It contains the authorized pseudonymized 506-record observations with original zeros, independent influence-source allocations, final estimator and simulation code, completed numerical draws, all table generators and the formal LaTeX source.
+**Use the [final analysis release](final/README.md), version 1.0.1.** Download and extract [PUBLIC_RELEASE_FINAL.zip](final/PUBLIC_RELEASE_FINAL.zip). It contains the authorized pseudonymized 506-record observations with original zeros, independent influence-source allocations, final estimator and simulation code, completed numerical draws, all table generators and the formal LaTeX source.
 
 Run `python reproduce.py` inside the extracted `PUBLIC_RELEASE_FINAL` directory. See its README for Rscript selection, verified replay versus full recomputation, optional ML software and PDF compilation. The package runs without any legacy workbook or private source file. The release manifest provides per-file SHA-256 digests and paper purposes.
 
