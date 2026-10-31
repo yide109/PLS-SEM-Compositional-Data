@@ -1,10 +1,10 @@
-# Final public release manifest — version 1.0.0, 31 October 2026
+# Final public release manifest — version 1.0.1, 31 October 2026
 
 Repository entry: https://github.com/yide109/PLS-SEM-Compositional-Data/tree/main/final
 
 This is the self-contained final analysis release. The author confirmed sharing authority for both sets of pseudonymized allocations. It contains one observation CSV, retaining all observed zeros; no original respondent identifiers, Excel linkage records, old nominal SN coordinates, historical outputs or raw survey workbooks are included. Retained order permits exact numerical reproduction; the two order-based match assumptions remain explicitly flagged. No new reuse license is granted on the authors' behalf.
 
-Verified reproduction refits empirical point models, rotations and prediction and summarizes the completed Monte Carlo/bootstrap draws. It is not a claim of a new full Monte Carlo/bootstrap rerun. Full recomputation code is provided separately. Portable verification with R 4.6.2 and Python 3.12.14 passed; the completed draws were generated under R 4.6.1. The immutable GitHub commit for this release is recorded in the separately delivered repository-version record and editorial checklist, because a commit cannot include its own identifier.
+Verified reproduction refits empirical point models, rotations and prediction and summarizes the completed Monte Carlo/bootstrap draws. It is not a claim of a new full Monte Carlo/bootstrap rerun. Full recomputation code is provided separately. Portable verification with R 4.6.2 and Python 3.12.14 passed; the completed draws were generated under R 4.6.1.
 
 The manifest excludes its own digest. Each listed file is necessary to run, interpret, check, cite or build the final paper; per-file SHA-256 values follow.
 
@@ -12,7 +12,7 @@ The manifest excludes its own digest. Each listed file is necessary to run, inte
 |---|---:|---|---|
 | `.gitignore` | 84 | Exclude generated output directories and local temporary artifacts. | `5668e7dfc8cd080dbb2cd89ebd571ad7d180f4d49b998d88f5f19f58e54be5fc` |
 | `build_manuscript.py` | 1148 | Compile the standalone manuscript with generated tables. | `bf31bbc26012ac69b1c17f03b1387d28ab2b901b7ea020a2b56ced311cdca036` |
-| `CITATION.cff` | 513 | Repository/version citation metadata. | `be74e8469549fdc57b73492e9378b7b2e2e52771372fd17de1ba94c2d0d03557` |
+| `CITATION.cff` | 513 | Repository/version citation metadata. | `0b6999d4d519bea6e94fe56365fec6c00333cdb8621ea4bff268fa0bc1c311ff` |
 | `data/analysis.csv` | 86755 | Tables 6–9 and empirical results: 506 observations, 33 original components, folds and matching flags. | `7adb8bc29a2867db1f5c397f953001eadbefd501120de6bf617c5c8cb14b62c0` |
 | `data/dictionary.csv` | 7251 | Variable definitions, units, role and interpretation; Appendix A. | `67864d5c24cec4946cb515a184cba7fdcce15cd8d8c1ca625725c70a74771b8f` |
 | `data/items.csv` | 1096 | Complete questionnaire wording and source question mapping; Table 10 / Appendix A. | `a1caa673ad07c1eef9ab4e5c98dc4fe2d550e52ae6f6876cf3931f3e6a1da773` |
@@ -23,7 +23,7 @@ The manifest excludes its own digest. Each listed file is necessary to run, inte
 | `docs/REPRODUCIBILITY.md` | 3545 | Run order, seeds, sample sizes, output/table mapping and replay distinction. | `272fc02c6a9d05482a519344d331e86ec6742e311aadede0d9eb102b7f8f07fe` |
 | `make_tables.py` | 9262 | Generate Tables 1–10, including item wording appendix, from numerical inputs. | `1a6852b8c3a3c3367523286e98e2be87a18616d9e297e91b30524caec9dab538` |
 | `NOTICE.md` | 799 | Sharing authority, attribution and absence of an author-selected reuse license. | `3907e78bc6811fa3e56bf1fc30c43d8f9b74eeb201b38e44552937b045667107` |
-| `paper/manuscript.tex` | 40518 | Editable formal paper; all substantive current methods, results and references. | `865fe449a6393bbd05bc07297fd73897800bab84325aff01db4afd29c5eb2149` |
+| `paper/manuscript.tex` | 40495 | Editable formal paper; all substantive current methods, results and references. | `c6fc0e158015e58e0775d660b9ff1f62c3bb2a6ef0d75be804ef2a78fcfc0ed3` |
 | `paper/README.md` | 686 | Instructions for optional PDF compilation. | `622bbebee802469d8437e39bdbea72800eb0aa4f126549421aec7d4783da906e` |
 | `R/estimator.R` | 6093 | Specified Mode-A score iteration, loading slopes, prediction and rotation comparisons. | `e084d50e69d9c2a658484d5672c73a5e1a6002ef06840981e713440473bf3a34` |
 | `R/geometry.R` | 573 | ILR/CLR geometry, orthogonal rotations and complete-vector distance calculations. | `f2b2309b0c730f40c3762a3381139dffdcf5b7a08a6ca7919d2b47b56328df3a` |
@@ -31,7 +31,7 @@ The manifest excludes its own digest. Each listed file is necessary to run, inte
 | `R/scenarios.R` | 2174 | Three common-factor scenarios and equation-specific R-squared targets; Section 5. | `de212a740ab8aee964f1e98398e59a9e2fcda0d682cadbc6447fc9937fae40be` |
 | `R/zero_handling.R` | 694 | Explicit positive approximation schemes for observed zeros; Sections 4 and 6. | `734f76c29e0fd845412ec69eec30c1d639d7f94aff3535ec04ea925e57e2d180` |
 | `README.md` | 5235 | Final-version entry, scope, quick start and data/model limitations. | `ece14d4a4d7bc2e9bd77da5af2a32f0cfe77c041a17e14dda894a65a70515824` |
-| `release.json` | 605 | Machine-readable version, data dimensions and computational scope. | `346cd086cce4e7597ab7613b549cf0dcee971ad2def1e698d0fbe66095d39b1a` |
+| `release.json` | 605 | Machine-readable version, data dimensions and computational scope. | `825c2ab6cb531aa36d506d02ee18141b5b957eeba889574f7e2a651f0d70d659` |
 | `reproduce.py` | 1058 | One-command numerical and table reproduction, hash checks and mode selection. | `d93ee0f955e1692a75a368ee84b8cf865372ca2e4e963d02829952155500b9a2` |
 | `run_checks.R` | 2521 | Permanent 33 mathematical and numerical checks; not a temporary test. | `5fa3ff1c8ec0329453f3d05f91990785da7cb5e2ffd7c940488cadaf6b1d6873` |
 | `run_empirical.R` | 9858 | Final-data estimation, bootstrap or verified draws, rotations, prediction and sensitivities. | `a536948924511b185a2545d33005442861769af6865f22ba98d53d3cda76ed3e` |
@@ -44,4 +44,4 @@ The manifest excludes its own digest. Each listed file is necessary to run, inte
 | `verified/manifest.json` | 654 | SHA-256 integrity checks on completed numerical inputs. | `9aee7882cf89d41c0b5e0ce6ee1d175777be048e5366d503a97e54cb0adc5e0a` |
 | `verified/scenario_rotations.csv` | 18225 | 75 scenario rotation comparisons; Table 3. | `55f86be0f8fd45f7e5af0f885f45b2d75b325d1c857f47b7220a5cdb9664a835` |
 | `verified/simulation_draws.csv.gz` | 542132 | 21,600 comparator outputs for 5,400 samples; Tables 2 and 4. | `5862cdf3575b1f5c7cb4e9f499b6bec4027a75eb4aae33344e1a7bab7fca2beb` |
-| `VERSION_NOTES.md` | 1231 | Material version/data-correction statement; legacy files are superseded. | `e888da54efc63217891d15081e96e15c2015692e42978ba6cf47a1d105cbbd76` |
+| `VERSION_NOTES.md` | 1624 | Material version/data-correction statement; legacy files are superseded. | `6831ed34c85bbef9c83e34ed957c577e3b3957495b8a4931886527915530ef01` |

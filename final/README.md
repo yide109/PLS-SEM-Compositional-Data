@@ -1,10 +1,10 @@
-# Final analysis release — version 1.0.0
+# Final analysis release — version 1.0.1
 
 Date: 31 October 2026. This is the final-version entry for *PLS-SEM for compositional data: coordinate invariance and measurement assessment*.
 
 Download [PUBLIC_RELEASE_FINAL.zip](PUBLIC_RELEASE_FINAL.zip) and extract it. The archive contains 36 files, including one 506-record observation CSV with 33 original allocation components, complete dictionaries, the final R/Python programs, verified experiment draws and the editable formal paper. Observed zeros are preserved. No old nominal SN coordinates or private source-linkage records are included.
 
-Archive SHA-256: `b551939a9f8c8b56d1806d2cfeb09579b194f1159105c0f43635fedbb848fb4d`
+Archive SHA-256: `dd7984f859d895ec1f5f6b07ff64664733d9808dce24f0a248650ee4f03111d3`
 
 From the extracted directory, run:
 
